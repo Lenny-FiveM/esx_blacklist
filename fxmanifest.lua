@@ -4,5 +4,6 @@ author 'Kadir#6400'
 description 'Simple BlackList'
 version '1.0.0'
 server_scripts {
-     "*.lua"
+     "event.lua",
+     "list.lua"
 }
