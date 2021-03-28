@@ -27,3 +27,8 @@ local function OnPlayerConnecting(name, setKickReason, deferrals)
 end
  
 AddEventHandler("playerConnecting", OnPlayerConnecting)
+
+
+--
+-- Created by Kadir#6400
+--
