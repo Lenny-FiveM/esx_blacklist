@@ -1,4 +1,6 @@
 BlackList = {}
+
+
 BlackList.Player = {
     --[[
           ↓ Exemple ↓ 
@@ -6,3 +8,8 @@ BlackList.Player = {
           ["discord:id"] = true -- nom
      ]]
 }
+
+
+--
+-- Created by Kadir#6400
+--
