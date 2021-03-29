@@ -12,7 +12,7 @@ local function OnPlayerConnecting(name, setKickReason, deferrals)
      if discord ~= nil then
           if BlackList.Player[discord] then
                print("Player ^3"..GetPlayerName(_src).."^0 is ^1BlackList^0 ! ")
-               deferrals.done("\n\n"..GetPlayerName(_src)..", vous êtes BlackList de ce serveur !\n\n")   
+               deferrals.done((BlackList.Notif.blackListFromServer):format(GetPlayerName(_src))   
                CancelEvent()
                return
           else
@@ -22,7 +22,7 @@ local function OnPlayerConnecting(name, setKickReason, deferrals)
      else
           print("Player "..GetPlayerName(_src).." is not connected to discord from fivem !")
           CancelEvent()
-          deferrals.done("\n\nVeuillez accepter FiveM sur discord .\n\n")
+          deferrals.done(BlackList.Notif.notDiscordConnect)
      end
 end
  
