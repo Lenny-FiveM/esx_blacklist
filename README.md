@@ -9,4 +9,5 @@ Il vous fera allez dans le fichier `list` et regarder l'exemple mis dans le fich
 Discord d'entraide
 - Kadir >> https://discord.gg/BnhqGyYFvm
 - DakoM >> https://discord.gg/RvYkRMebnt
+## N'hésiter pas à mettre une star sa fais grave plaisir
 ## enjoy
